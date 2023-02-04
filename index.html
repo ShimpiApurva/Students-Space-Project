@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Students Space</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
   <body>
     <!-- top-banner -->
@@ -19,17 +21,26 @@
     <nav>
       <div class="container main-nav flex">
         <a href="#" class="bca-logo">
-          <img src="./assets/students-space-logo.jpg" alt="">
-          <h2>Student's Space</h2> 
+          <img src="./assets/students-space-logo.jpg" alt="" />
+          <h2>Student's Space</h2>
         </a>
         <div class="nav-links">
           <ul class="flex">
             <li><a href="index.html" class="hover-link">Home</a></li>
-            <li><a href="https://bcapractical2017.blogspot.com/p/home.html" class="hover-link">Notes</a></li>
+            <li>
+              <a
+                href="https://bcapractical2017.blogspot.com/p/home.html"
+                class="hover-link"
+                >Notes</a
+              >
+            </li>
             <li><a href="#" class="hover-link">Lab Assignments</a></li>
             <li><a href="#" class="hover-link">Programming Career</a></li>
           </ul>
         </div>
+        <a href="#" class="nav-toggle hover-link">
+          <i class="fa-solid fa-bars"></i>
+        </a>
       </div>
     </nav>
 
@@ -63,88 +74,91 @@
       </div>
     </div>
 
+    <!-- video-section -->
     <section>
       <div class="container video-section flex">
         <div class="section-right">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/eKqY-oP1d_Y" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/eKqY-oP1d_Y"
+            title="YouTube video player"
+            frameborder="2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
         <div class="section-left">
           <h1>How to Start Coding</h1>
           <p>
-            Do you want to become a successful software developer and dreaming about getting into the big tech companies?
-            </p><br>
-            <p>Are you someone who is already working as a developer but looking for a big move in your career?
+            Do you want to become a successful software developer and dreaming
+            about getting into the big tech companies?
           </p>
-          <a href="https://www.geeksforgeeks.org/100-days-of-code-a-complete-guide-for-beginners-and-experienced/" target="_blank" class="know-more">Know More...</a>
+          <br />
+          <p>
+            Are you someone who is already working as a developer but looking
+            for a big move in your career?
+          </p>
+          <a
+            href="https://www.geeksforgeeks.org/100-days-of-code-a-complete-guide-for-beginners-and-experienced/"
+            target="_blank"
+            class="know-more"
+            >Know More...</a
+          >
         </div>
       </div>
     </section>
 
-    <!-- coding-language-section -->
-    <div class="coding-language-text">
-      <div class="container flex">
-        <h2>Top Programming Courses</h2>
+<!-- coding-language-section -->
+<section class="coding-language-section">
+  <div class="container">
+      <div class="coding-header">
+          <h2>Top Programming Courses</h2>
       </div>
-    </div>
-    <section class="coding-language-section">
-      <div class="container flex">
-        <div class="coding-area flex">
-          <div class="coding-card flex">
-            <img src="./assets/java.png" width="100" height="100">
-            <h3>Java Programming</h3>
-            <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop" target="_blank" class="hover-link learn-button">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="coding-language-section">
-      <div class="container flex">
-        <div class="coding-area flex">
+      <div class="coding-area flex">
           <div class="coding-card flex">
-            <img src="./assets/cpp.png" width="100" height="100">
-            <h3>C++ Programming</h3>
-            <a href="https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL" target="_blank" class="hover-link learn-button">Learn More</a>
-          </div>
-        </div>
+              <img src="./assets/java.png" width="100" height="100"/>
+              <h3>Java Programming</h3>
+              <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop"
+          target="_blank"
+          class="hover-link learn-button">Learn More</a>
       </div>
-    </section>
+      
+      <div class="coding-card flex">
+          <img src="./assets/cpp.png" width="100" height="100"/>
+          <h3>C++ Programming</h3>
+          <a href="https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
+          target="_blank"
+          class="hover-link learn-button">Learn More</a>
+      </div>
+      
+      <div class="coding-card flex">
+          <img src="./assets/python.png" width="100" height="100"/>
+          <h3>Python Programming</h3>
+          <a href="https://youtu.be/_uQrJ0TkZlc"
+          target="_blank"
+          class="hover-link learn-button">Learn More</a>
+      </div>
 
-    <section class="coding-language-section">
-      <div class="container flex">
-        <div class="coding-area flex">
-          <div class="coding-card flex">
-            <img src="./assets/python.png" width="100" height="100">
-            <h3>Python Programming</h3>
-            <a href="https://youtu.be/_uQrJ0TkZlc" target="_blank" class="hover-link learn-button">Learn More</a>
-          </div>
-        </div>
+      <div class="coding-card flex">
+          <img src="./assets/html-css-js.png" width="170" height="100"/>
+          <h3>Web-Development</h3>
+          <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+          target="_blank"
+          class="hover-link learn-button">Learn More</a>
       </div>
-    </section>
 
-    <section class="coding-language-section">
-      <div class="container flex">
-        <div class="coding-area flex">
-          <div class="coding-card flex">
-            <img src="./assets/html-css-js.png" width="170" height="100">
-            <h3>Web-Development</h3>
-            <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n" target="_blank" class="hover-link learn-button">Learn More</a>
-          </div>
-        </div>
+      <div class="coding-card flex">
+          <img src="./assets/ai.png" width="100" height="100"/>
+          <h3>Artificial Intelligence</h3>
+          <a href="https://youtube.com/playlist?list=PLxCzCOWd7aiHGhOHV-nwb0HR5US5GFKFI"
+          target="_blank"
+          class="hover-link learn-button">Learn More</a>
       </div>
-    </section>
-
-    <section class="coding-language-section">
-      <div class="container flex">
-        <div class="coding-area flex">
-          <div class="coding-card flex">
-            <img src="./assets/ai.png" width="100" height="100">
-            <h3>Artificial Intelligence</h3>
-            <a href="https://youtube.com/playlist?list=PLxCzCOWd7aiHGhOHV-nwb0HR5US5GFKFI" target="_blank" class="hover-link learn-button">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </section>
+  </div>
+</div>
+</section>
 
     <!-- cta-section -->
     <section class="cta-section">
@@ -163,6 +177,11 @@
           <a class="hover-link" href="#">Apurva</a>
           <a class="hover-link" href="#">Hemant</a>
           <a class="hover-link" href="#">Harshada</a>
+          <div class="footer-media">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
         </div>
       </div>
     </footer>
