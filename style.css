@@ -112,7 +112,7 @@ ul {
   width: 130px;
 }
 
-.bca-logo h2{
+.bca-logo h2 {
   margin-top: -20px;
   font-size: 25px;
 }
@@ -231,7 +231,7 @@ section {
   background-image: url(./assets/background-image.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size:250px;
+  background-size: 250px;
 }
 
 .section-right {
@@ -303,7 +303,7 @@ section {
 }
 
 .footer a {
-  font-family:monospace;
+  font-family: monospace;
   font-size: 20px;
 }
 
@@ -312,4 +312,51 @@ section {
   font-size: 20px;
   justify-content: center;
   gap: 10px;
+}
+
+/* Notes-Section-CSS */
+.notes-section {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.notes-header h2 {
+  text-align: center;
+  font-size: 55px;
+  color: #333;
+  margin-bottom: -50px;
+}
+
+.year-section {
+  margin-bottom: 20px;
+}
+
+.year-section h2 {
+  font-size: 30px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.semester-section {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 #ccc;
+  margin-bottom: 15px;
+}
+
+.semester-section h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.semester-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.semester-section li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
 }
